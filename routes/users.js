@@ -9,22 +9,16 @@ router.get('/', (req, res) => {
     name: 'Itshak Maharat',
   },
   {
-<<<<<<< HEAD
-    "id": 2,
-    "name": "Tom Swalla"
+    id: 3,
+    name: 'Ephraim',
   },
   {
-    "id": 3,
-    "name": "Ephraim Akale"
-  }
+    id: 2,
+    name: 'Tom Swalla',
+  },
 
 ];
-=======
-    id: 2,
-    name: 'Yosef Tagawi',
-  },
-  ];
->>>>>>> 11c43ce450742ba361bd84bf74189e32f58b5f7a
+
   res.send(users);
 });
 
