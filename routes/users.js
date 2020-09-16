@@ -16,7 +16,7 @@ router.get("/", function (req, res, next) {
     {
       id: 3,
       name: "Ron Chen",
-    },
+    }
   ];
   res.send(users);
 });
