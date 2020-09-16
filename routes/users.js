@@ -10,7 +10,11 @@ router.get('/', (req, res) => {
   },
   {
     id: 3,
-    name: 'Ephraim',
+    name: 'Ephraim Akale',
+  },
+  {
+    id: 4,
+    name: 'Yosef Tagawei',
   },
   {
     id: 2,
