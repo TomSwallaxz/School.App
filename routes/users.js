@@ -9,16 +9,16 @@ router.get('/', (req, res) => {
     name: 'Itshak Maharat',
   },
   {
+    id: 2,
+    name: 'Tom Swalla',
+  },
+  {
     id: 3,
     name: 'Ephraim Akale',
   },
   {
     id: 4,
     name: 'Yosef Tagawei',
-  },
-  {
-    id: 2,
-    name: 'Tom Swalla',
   },
 
 ];
