@@ -1,8 +1,9 @@
-var express = require("express");
+const express = require('express');
 
-var router = express.Router();
+const router = express.Router();
 
 /* GET users listing. */
+<<<<<<< HEAD
 router.get("/", function (req, res, next) {
   const users = [
     {
@@ -13,11 +14,20 @@ router.get("/", function (req, res, next) {
       id: 2,
       name: "Tom Swalla",
     },
-    {
-      id: 3,
-      name: "Ron Chen",
-    }
+
   ];
+=======
+router.get('/', function(req, res, next) {
+  const users = [{
+    "id": 1,
+    "name": "Itshak Maharat "
+  },
+  {
+    "id": 2,
+    "name": "Tom Swalla"
+  }
+];
+>>>>>>> f86bf8370aed9663f1b5822b96ec062049d2959a
   res.send(users);
 });
 
